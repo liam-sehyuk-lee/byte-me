@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Locations</title>
+    <title>Byte Me - Locations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: #555;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .locations {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .location {
+            background-color: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>Byte Me - Locations</header>
+    <nav>
+        <a href="contact.html">Contact Us</a>
+        <a href="partners.html">Partner Locations</a>
+        <a href="todays-choices.html">Today's Choices</a>
+    </nav>
+    <div class="container">
+        <h2>Welcome to Byte Me</h2>
+        <p>Explore our locations and discover the best tech-friendly places to dine!</p>
+        <div class="locations">
+            <div class="location">
+                <h3>Downtown Tech Hub</h3>
+                <p>123 Tech Street, Silicon Valley, CA</p>
+                <p>Mon-Sun: 8AM - 10PM</p>
+            </div>
+            <div class="location">
+                <h3>Cyber Café Central</h3>
+                <p>456 Digital Ave, New York, NY</p>
+                <p>Mon-Fri: 7AM - 9PM, Sat-Sun: 9AM - 11PM</p>
+            </div>
+            <div class="location">
+                <h3>AI Bites Bistro</h3>
+                <p>789 Innovation Road, Austin, TX</p>
+                <p>Mon-Sun: 10AM - 11PM</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
