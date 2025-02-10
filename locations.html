@@ -12,28 +12,29 @@
             background-color: #f4f4f4;
         }
         header {
-            background-color: #333;
+            background-color: #002d2d;
             color: white;
             padding: 15px;
-            text-align: center;
+            text-align: left;
             font-size: 24px;
+            padding-left: 20px;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #444;
-            padding: 10px;
+            background-color: #003333;
+            padding: 10px 0;
         }
         nav a {
             color: white;
             text-decoration: none;
             padding: 10px 20px;
-            margin: 0 10px;
-            background-color: #555;
+            margin: 0 15px;
+            background-color: #004d4d;
             border-radius: 5px;
         }
         nav a:hover {
-            background-color: #777;
+            background-color: #006666;
         }
         .container {
             padding: 20px;
@@ -41,45 +42,64 @@
         }
         .locations {
             display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
         }
         .location {
-            background-color: white;
-            padding: 15px;
-            margin: 10px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 250px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #003333;
+            color: white;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 10px;
+            width: 80%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .location-info {
+            text-align: left;
+        }
+        .location h3 {
+            margin: 0 0 10px 0;
+        }
+        .location p {
+            margin: 5px 0;
+        }
+        .location img {
+            border-radius: 10px;
+            max-width: 200px;
+            height: auto;
         }
     </style>
 </head>
 <body>
-    <header>Byte Me - Locations</header>
+    <header>Byte Me</header>
     <nav>
-        <a href="contact.html">Contact Us</a>
+        <a href="about.html">About Us</a>
         <a href="partners.html">Partner Locations</a>
         <a href="todays-choices.html">Today's Choices</a>
     </nav>
     <div class="container">
-        <h2>Welcome to Byte Me</h2>
-        <p>Explore our locations and discover the best tech-friendly places to dine!</p>
+        <h2>Our Locations</h2>
         <div class="locations">
             <div class="location">
-                <h3>Downtown Tech Hub</h3>
-                <p>123 Tech Street, Silicon Valley, CA</p>
-                <p>Mon-Sun: 8AM - 10PM</p>
+                <div class="location-info">
+                    <h3>Kelowna Location</h3>
+                    <p>1295 Cannery Ln #125</p>
+                    <p>Kelowna, BC V1Y 9V8</p>
+                    <p>Phone: +1 (176) 142-8766</p>
+                </div>
+                <img src="https://via.placeholder.com/200" alt="Map of Kelowna">
             </div>
             <div class="location">
-                <h3>Cyber Central</h3>
-                <p>456 Digital Ave, New York, NY</p>
-                <p>Mon-Fri: 7AM - 9PM, Sat-Sun: 9AM - 11PM</p>
-            </div>
-            <div class="location">
-                <h3>AI Bites</h3>
-                <p>789 Innovation Road, Austin, TX</p>
-                <p>Mon-Sun: 10AM - 11PM</p>
+                <div class="location-info">
+                    <h3>Vancouver Location</h3>
+                    <p>855 Davie St</p>
+                    <p>Vancouver, BC V6Z 1B7</p>
+                    <p>Phone: +1 (176) 142-8766</p>
+                </div>
+                <img src="https://via.placeholder.com/200" alt="Map of Vancouver">
             </div>
         </div>
     </div>
