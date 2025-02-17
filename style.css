@@ -1,0 +1,26 @@
+.menu-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.menu-item {
+  background-color: #012622;
+  color: #dcd1c8;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
