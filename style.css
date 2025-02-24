@@ -159,3 +159,23 @@ h2 a:hover {
   object-fit: cover;
   border-radius: 10px;
 }
+
+.about_us {
+  margin: 5rem 2rem;
+}
+
+.about_us p {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.about_us h3 {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  color: #012622;
+  font-size: 2vw;
+}
