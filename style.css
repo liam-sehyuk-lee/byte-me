@@ -133,6 +133,11 @@ h2 a:hover {
   height: auto;
 }
 
+.menu-title {
+  display: flex;
+  justify-content: center;
+}
+
 .menu-container {
   display: flex;
   justify-content: center;
